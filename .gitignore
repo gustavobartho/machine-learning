@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+__pycache__
+nvvm
+libdevice.10.bc
+datasets
+models
+networks
