@@ -1,0 +1,61 @@
+----------- Agent specs ----------------
+Batch Size: 256
+Block Size: 32
+Dropout: 0.05
+Memory Size: 200
+Gamma: 0.99
+Epsilon: 1
+Epsilon decay: 0.9995
+Epsilon min: 0.3
+----------- Actor specs -----------------
+Actor num layers: 2
+Actor num heads: 2
+Actor embedding dim: 40
+Actor learning rate: 8e-05
+Actor head op: 1
+----------- Critic specs -----------------
+Critic num layers: 1
+Critic num heads: 2
+Critic embedding dim: 32
+Critic learning rate: 0.0003
+Critic head op: 1
+
+BEGIN
+
+Episodes:  10 / 300                                                                                                      
+	Total reward:  -487.19 +/- 185.34 
+	Num. steps:  73.5 +/- 11.25 
+--------------------------
+Episodes:  20 / 300                                                                                                      
+	Total reward:  -332.92 +/- 235.05 
+	Num. steps:  82.8 +/- 11.37 
+--------------------------
+Episodes:  30 / 300                                                                                                      
+	Total reward:  -226.53 +/- 147.77 
+	Num. steps:  106.0 +/- 47.33 
+--------------------------
+Episodes:  40 / 300                                                                                                      
+	Total reward:  -113.67 +/- 52.72 
+	Num. steps:  143.6 +/- 66.07 
+--------------------------
+Episodes:  50 / 300                                                                                                      
+	Total reward:  -68.18 +/- 65.5 
+	Num. steps:  128.0 +/- 28.05 
+--------------------------
+Episodes:  60 / 300                                                                                                      
+	Total reward:  -93.58 +/- 44.69 
+	Num. steps:  114.4 +/- 18.12 
+--------------------------
+Episodes:  70 / 300                                                                                                      
+	Total reward:  -171.69 +/- 56.51 
+	Num. steps:  134.7 +/- 43.16 
+--------------------------
+Episodes:  80 / 300                                                                                                      
+	Total reward:  -145.38 +/- 116.6 
+	Num. steps:  186.3 +/- 82.55 
+--------------------------
+Episodes:  90 / 300                                                                                                      
+	Total reward:  -130.01 +/- 55.52 
+	Num. steps:  183.3 +/- 96.78 
+--------------------------                   
+
