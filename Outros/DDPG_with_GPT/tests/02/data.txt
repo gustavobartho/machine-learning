@@ -1,0 +1,48 @@
+----------- Agent specs ----------------
+Batch Size: 256
+Block Size: 32
+Dropout: 0.05
+Memory Size: 200
+Gamma: 0.99
+Epsilon: 1
+Epsilon decay: 0.9995
+Epsilon min: 0.3
+----------- Actor specs -----------------
+Actor num layers: 1
+Actor num heads: 4
+Actor embedding dim: 40
+Actor learning rate: 7e-05
+Actor head op: 1
+----------- Critic specs -----------------
+Critic num layers: 1
+Critic num heads: 2
+Critic embedding dim: 32
+Critic learning rate: 0.0003
+Critic head op: 1
+
+
+BEGIN
+
+Episodes:  10 / 100                                                                                                      
+	Total reward:  -438.12 +/- 335.4 
+	Num. steps:  87.5 +/- 25.11 
+--------------------------
+Episodes:  20 / 100                                                                                                      
+	Total reward:  -395.3 +/- 380.08 
+	Num. steps:  105.4 +/- 56.31 
+--------------------------
+Episodes:  30 / 100                                                                                                      
+	Total reward:  -177.89 +/- 127.56 
+	Num. steps:  103.2 +/- 26.7 
+--------------------------
+Episodes:  40 / 100                                                                                                      
+	Total reward:  -256.6 +/- 180.63 
+	Num. steps:  160.1 +/- 157.71 
+--------------------------
+Episodes:  50 / 100                                                                                                      
+	Total reward:  -220.61 +/- 173.33 
+	Num. steps:  112.8 +/- 26.22 
+--------------------------
+Episodes:  60 / 100                                                                                                      
+	Total reward:  -272.27 +/- 216.06 
+	Num. steps:  124.2 +/- 36.66 
